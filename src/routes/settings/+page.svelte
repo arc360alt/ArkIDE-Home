@@ -338,10 +338,10 @@
 </script>
 
 <svelte:head>
-    <title>PenguinMod - Settings</title>
-    <meta name="title"                   content="PenguinMod - Settings" />
-    <meta property="og:title"            content="PenguinMod - Settings" />
-    <meta property="twitter:title"       content="PenguinMod - Settings">
+    <title>ArkIDE - Settings</title>
+    <meta name="title"                   content="ArkIDE - Settings" />
+    <meta property="og:title"            content="ArkIDE - Settings" />
+    <meta property="twitter:title"       content="ArkIDE - Settings">
     <meta name="description"             content="View your account settings.">
     <meta property="twitter:description" content="View your account settings.">
     <meta property="og:url"              content="https://penguinmod.com/settings">

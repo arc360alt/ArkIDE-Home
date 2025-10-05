@@ -293,10 +293,10 @@
 </script>
 
 <svelte:head>
-    <title>PenguinMod - Messages</title>
-    <meta name="title"                   content="PenguinMod - ArkIDE" />
-    <meta property="og:title"            content="PenguinMod - ArkIDE" />
-    <meta property="twitter:title"       content="PenguinMod - ArkIDE">
+    <title>ArkIDE - Messages</title>
+    <meta name="title"                   content="ArkIDE - ArkIDE" />
+    <meta property="og:title"            content="ArkIDE - ArkIDE" />
+    <meta property="twitter:title"       content="ArkIDE - ArkIDE">
     <meta name="description"             content="See your messages or alerts.">
     <meta property="twitter:description" content="See your messages or alerts.">
     <meta property="og:url"              content="https://penguinmod.com/messages">

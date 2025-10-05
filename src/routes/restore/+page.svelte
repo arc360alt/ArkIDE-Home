@@ -59,7 +59,7 @@
 </script>
 
 <svelte:head>
-    <title>PenguinMod - Restore</title>
+    <title>ArkIDE - Restore</title>
     <meta name="title" content="ArkIDE - Home" />
     <meta property="og:title" content="ArkIDE - Home" />
     <meta property="twitter:title" content="ArkIDE - Home">

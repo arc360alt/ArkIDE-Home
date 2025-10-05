@@ -66,7 +66,7 @@
 </script>
 
 <svelte:head>
-    <title>PenguinMod - Redirecting</title>
+    <title>ArkIDE - Redirecting</title>
     <meta name="title" content="ArkIDE - Home" />
     <meta property="og:title" content="ArkIDE - Home" />
     <meta property="twitter:title" content="ArkIDE - Home">

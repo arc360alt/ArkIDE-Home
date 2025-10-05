@@ -67,14 +67,14 @@
 </script>
 
 <svelte:head>
-    <title>PenguinMod - {pageStatus}</title>
+    <title>ArkIDE - {pageStatus}</title>
     <meta name="title" content="ArkIDE - Home" />
     <meta property="og:title" content="ArkIDE - Home" />
     <meta property="twitter:title" content="ArkIDE - Home">
     <meta name="description" content="The area where featured projects and community stuff & info is shown.">
     <meta property="twitter:description" content="The area where featured projects and community stuff & info is shown.">
-    <meta property="og:url" content="https://penguinmod.com/">
-    <meta property="twitter:url" content="https://penguinmod.com/">
+    <meta property="og:url" content="https://arkide.arc360hub.com/">
+    <meta property="twitter:url" content="https://arkide.arc360hub.com/">
 </svelte:head>
 
 <NavigationBar />

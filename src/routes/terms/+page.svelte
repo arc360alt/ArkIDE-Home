@@ -23,12 +23,12 @@
     </script>
     
     <svelte:head>
-        <title>PenguinMod - Terms of Service</title>
-        <meta name="title" content="PenguinMod - Terms of Service" />
-        <meta property="og:title" content="PenguinMod - Terms of Service" />
-        <meta property="twitter:title" content="PenguinMod - Terms of Service">
-        <meta name="description" content="Terms you must follow if you would like to use PenguinMod.">
-        <meta property="twitter:description" content="Terms you must follow if you would like to use PenguinMod.">
+        <title>ArkIDE - Terms of Service</title>
+        <meta name="title" content="ArkIDE - Terms of Service" />
+        <meta property="og:title" content="ArkIDE - Terms of Service" />
+        <meta property="twitter:title" content="ArkIDE - Terms of Service">
+        <meta name="description" content="Terms you must follow if you would like to use ArkIDE.">
+        <meta property="twitter:description" content="Terms you must follow if you would like to use ArkIDE.">
         <meta property="og:url" content="https://penguinmod.com/terms">
         <meta property="twitter:url" content="https://penguinmod.com/terms">
     </svelte:head>

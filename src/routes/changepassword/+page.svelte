@@ -138,12 +138,12 @@
 </script>
     
 <svelte:head>
-    <title>PenguinMod - Change Password</title>
-    <meta name="title" content="PenguinMod - Change Password" />
-    <meta property="og:title" content="PenguinMod - Change Password" />
-    <meta property="twitter:title" content="PenguinMod - Change Password" />
-    <meta name="description" content="Change your password for PenguinMod to access your account with a new password" />
-    <meta property="twitter:description" content="Change your password for PenguinMod to access your account with a new password" />
+    <title>ArkIDE - Change Password</title>
+    <meta name="title" content="ArkIDE - Change Password" />
+    <meta property="og:title" content="ArkIDE - Change Password" />
+    <meta property="twitter:title" content="ArkIDE - Change Password" />
+    <meta name="description" content="Change your password for ArkIDE to access your account with a new password" />
+    <meta property="twitter:description" content="Change your password for ArkIDE to access your account with a new password" />
     <meta property="og:url" content="https://penguinmod.com/changepassword">
     <meta property="twitter:url" content="https://penguinmod.com/changepassword">
 </svelte:head>

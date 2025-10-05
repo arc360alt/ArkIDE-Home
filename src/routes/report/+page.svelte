@@ -249,12 +249,12 @@
 </script>
 
 <svelte:head>
-    <title>PenguinMod - Report</title>
-    <meta name="title"                   content="PenguinMod - Report" />
-    <meta property="og:title"            content="PenguinMod - Report" />
-    <meta property="twitter:title"       content="PenguinMod - Report">
-    <meta name="description"             content="Report a specific project or user on PenguinMod.">
-    <meta property="twitter:description" content="Report a specific project or user on PenguinMod.">
+    <title>ArkIDE - Report</title>
+    <meta name="title"                   content="ArkIDE - Report" />
+    <meta property="og:title"            content="ArkIDE - Report" />
+    <meta property="twitter:title"       content="ArkIDE - Report">
+    <meta name="description"             content="Report a specific project or user on ArkIDE.">
+    <meta property="twitter:description" content="Report a specific project or user on ArkIDE.">
     <meta property="og:url"              content="https://penguinmod.com/report">
     <meta property="twitter:url"         content="https://penguinmod.com/report">
 </svelte:head>

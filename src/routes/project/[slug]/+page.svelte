@@ -198,10 +198,10 @@
 </script>
 
 <svelte:head>
-    <title>PenguinMod - {meta.title}</title>
-    <meta name="title" content="PenguinMod - {meta.title}" />
-    <meta property="og:title" content="PenguinMod - {meta.title}" />
-    <meta property="twitter:title" content="PenguinMod - {meta.title}">
+    <title>ArkIDE - {meta.title}</title>
+    <meta name="title" content="ArkIDE - {meta.title}" />
+    <meta property="og:title" content="ArkIDE - {meta.title}" />
+    <meta property="twitter:title" content="ArkIDE - {meta.title}">
     <meta property="og:url" content="https://penguinmod.com/project/{meta.id}">
     <meta property="twitter:url" content="https://penguinmod.com/project/{meta.id}">
 </svelte:head>

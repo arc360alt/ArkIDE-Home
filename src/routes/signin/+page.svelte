@@ -192,12 +192,12 @@
 </script>
     
 <svelte:head>
-    <title>PenguinMod - Login</title>
-    <meta name="title" content="PenguinMod - Login" />
-    <meta property="og:title" content="PenguinMod - Login" />
-    <meta property="twitter:title" content="PenguinMod - Login">
-    <meta name="description" content="Login for PenguinMod to start sharing your projects!">
-    <meta property="twitter:description" content="Login for PenguinMod to start sharing your projects!">
+    <title>ArkIDE - Login</title>
+    <meta name="title" content="ArkIDE - Login" />
+    <meta property="og:title" content="ArkIDE - Login" />
+    <meta property="twitter:title" content="ArkIDE - Login">
+    <meta name="description" content="Login for ArkIDE to start sharing your projects!">
+    <meta property="twitter:description" content="Login for ArkIDE to start sharing your projects!">
     <meta property="og:url" content="https://penguinmod.com/signin">
     <meta property="twitter:url" content="https://penguinmod.com/signin">
 </svelte:head>

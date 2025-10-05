@@ -20,10 +20,10 @@
 </script>
 
 <svelte:head>
-  <title>PenguinMod - Thanks for donating!</title>
-  <meta name="title" content="PenguinMod - Thanks for donating!" />
-  <meta property="og:title" content="PenguinMod - Thanks for donating!" />
-  <meta property="twitter:title" content="PenguinMod - Thanks for donating!" />
+  <title>ArkIDE - Thanks for donating!</title>
+  <meta name="title" content="ArkIDE - Thanks for donating!" />
+  <meta property="og:title" content="ArkIDE - Thanks for donating!" />
+  <meta property="twitter:title" content="ArkIDE - Thanks for donating!" />
   <meta
     name="description"
     content="Help support PenguinMod and it's development!"

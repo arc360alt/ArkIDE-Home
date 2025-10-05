@@ -14,13 +14,13 @@
         Blank Project</button>
         <button on:click={() => event("Your project was removed because it appears to be the same as a previously uploaded project. Please use the “Update” button instead.")}>
         Duplicate Project / Spam Uploading</button>
-        <button on:click={() => event("Your project was removed because it only works outside of PenguinMod. Please upload it to the correct site instead. Projects must be functional on PenguinMod.")}>
+        <button on:click={() => event("Your project was removed because it only works outside of ArkIDE. Please upload it to the correct site instead. Projects must be functional on ArkIDE.")}>
         Doesn't Work on PenguinMod</button>
         <button on:click={() => event("Your project was removed because its main purpose was to display a different website through an iframe. Projects should not just act as browsers.")}>
         Iframe-Browser Project</button>
         <button on:click={() => event("Your project was removed because it appears to be reuploaded from Scratch without clear permission from the original creator. Reuploads must include proof of permission in the notes.")}>
         Scratch Reupload (No Permission)</button>
-        <button on:click={() => event("Your project was removed because it disables or breaks access to parts of the PenguinMod editor. Please read the uploading guidelines for more information.")}>
+        <button on:click={() => event("Your project was removed because it disables or breaks access to parts of the ArkIDE editor. Please read the uploading guidelines for more information.")}>
         Breaks or Disables Aspects of the Site</button>
     </details>
 
@@ -34,11 +34,11 @@
         Harassment or Bullying</button>
         <button on:click={() => event("Your project was removed because it contained disrespectful or inappropriate language. Please avoid using slurs or hate speech of any kind.")}>
         Derogatory Language or Slurs</button>
-        <button on:click={() => event("Your project was removed because it discriminates to a certain group or groups. PenguinMod would like to stay inclusive of all groups on our platform, and we may punish your account for breaking this guideline.")}>
+        <button on:click={() => event("Your project was removed because it discriminates to a certain group or groups. ArkIDE would like to stay inclusive of all groups on our platform, and we may punish your account for breaking this guideline.")}>
         Discriminatory Content</button>
-        <button on:click={() => event("Your project was removed for referencing or promoting violence, self-harm, or other dangerous behaviors. Projects that contain this kind of content are not allowed on PenguinMod.")}>
+        <button on:click={() => event("Your project was removed for referencing or promoting violence, self-harm, or other dangerous behaviors. Projects that contain this kind of content are not allowed on ArkIDE.")}>
         Violence or Harmful Behavior</button>
-        <button on:click={() => event("Your project was removed because it threatens other users or a group of people. PenguinMod does not allow this behavior, and we may punish your account if severe enough.")}>
+        <button on:click={() => event("Your project was removed because it threatens other users or a group of people. ArkIDE does not allow this behavior, and we may punish your account if severe enough.")}>
         Threat</button>
         <button on:click={() => event("Your project was removed for making light of a real-world event that harmed others. Please do not reference real-world tragedies.")}>
         Sensitive Real-World Events</button>

@@ -1343,7 +1343,7 @@
                     target="_blank"
                     href={"/guidelines/moderation"}
                 >
-                    PenguinMod Moderation Expectations
+                    ArkIDE Moderation Expectations
                 </a>
             </p>
 
@@ -1484,7 +1484,7 @@
                         target="_blank"
                         href={"/guidelines/moderation"}
                     >
-                        PenguinMod Moderation Expectations
+                        ArkIDE Moderation Expectations
                     </a>
                 </p>
                 <button on:click={() => {
@@ -1502,7 +1502,7 @@
                             target="_blank"
                             href={"/guidelines/moderation"}
                         >
-                            PenguinMod Moderation Expectations
+                            ArkIDE Moderation Expectations
                         </a> for more info.
                     </i></p>
                     <p>Type message ID:</p>
@@ -1535,14 +1535,14 @@
                             target="_blank"
                             href={"/guidelines/moderation"}
                         >
-                            PenguinMod Moderation Expectations
+                            ArkIDE Moderation Expectations
                         </a> for more info.
                     </i></p>
                     <p>Type receiver username:</p>
                     <input
                         type="text"
                         size="50"
-                        placeholder="PenguinMod Username..."
+                        placeholder="ArkIDE Username..."
                         bind:value={messageReplyInfo.target}
                     />
                     <p>Type message:</p>
@@ -1636,7 +1636,7 @@
                 <input
                     type="text"
                     size="50"
-                    placeholder="PenguinMod username..."
+                    placeholder="ArkIDE username..."
                     bind:value={userSelectionData.username}
                 />
                 <br />
@@ -1767,7 +1767,7 @@
                     <input
                         type="text"
                         size="50"
-                        placeholder="PenguinMod username..."
+                        placeholder="ArkIDE username..."
                         on:change={() => {
                             userBadgeInfo.areBadgesLoaded = false;
                         }}

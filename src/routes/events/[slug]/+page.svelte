@@ -114,12 +114,12 @@
 </script>
 
 <svelte:head>
-    <title>PenguinMod - {headerText}</title>
-    <meta name="title"                   content="PenguinMod - {headerText}" />
-    <meta property="og:title"            content="PenguinMod - {headerText}" />
-    <meta property="twitter:title"       content="PenguinMod - {headerText}">
-    <meta name="description"             content="View this event on PenguinMod's website!">
-    <meta property="twitter:description" content="View this event on PenguinMod's website!">
+    <title>ArkIDE - {headerText}</title>
+    <meta name="title"                   content="ArkIDE - {headerText}" />
+    <meta property="og:title"            content="ArkIDE - {headerText}" />
+    <meta property="twitter:title"       content="ArkIDE - {headerText}">
+    <meta name="description"             content="View this event on ArkIDE's website!">
+    <meta property="twitter:description" content="View this event on ArkIDE's website!">
     <meta property="og:url"              content="https://penguinmod.com/events/{eventPath}">
     <meta property="twitter:url"         content="https://penguinmod.com/events/{eventPath}">
 </svelte:head>

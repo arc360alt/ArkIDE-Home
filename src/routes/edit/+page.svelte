@@ -319,7 +319,7 @@
                         message = TranslationHandler.textSafe(
                             "uploading.error.illegalwordsused",
                             currentLang,
-                            "Words or phrases were used that are not allowed in PenguinMod. Please check through your project's details for any inappropriate words or phrases."
+                            "Words or phrases were used that are not allowed in ArkIDE. Please check through your project's details for any inappropriate words or phrases."
                         );
                         break;
                     default:

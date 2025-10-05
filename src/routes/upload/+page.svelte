@@ -473,7 +473,7 @@
                         message = TranslationHandler.textSafe(
                             "uploading.error.illegalwordsused",
                             currentLang,
-                            "Words or phrases were used that are not allowed in PenguinMod. Please check through your project's details for any inappropriate words or phrases."
+                            "Words or phrases were used that are not allowed in ArkIDE. Please check through your project's details for any inappropriate words or phrases."
                         );
                         break;
                     default:
@@ -776,17 +776,17 @@
 </script>
 
 <svelte:head>
-    <title>PenguinMod - Upload</title>
-    <meta name="title" content="PenguinMod - Upload" />
-    <meta property="og:title" content="PenguinMod - Upload" />
-    <meta property="twitter:title" content="PenguinMod - Upload" />
+    <title>ArkIDE - Upload</title>
+    <meta name="title" content="ArkIDE - Upload" />
+    <meta property="og:title" content="ArkIDE - Upload" />
+    <meta property="twitter:title" content="ArkIDE - Upload" />
     <meta
         name="description"
-        content="Upload your project to PenguinMod, for the whole world to see."
+        content="Upload your project to ArkIDE, for the whole world to see."
     />
     <meta
         property="twitter:description"
-        content="Upload your project to PenguinMod, for the whole world to see."
+        content="Upload your project to ArkIDE, for the whole world to see."
     />
     <meta property="og:url" content="https://penguinmod.com/upload" />
     <meta property="twitter:url" content="https://penguinmod.com/upload" />

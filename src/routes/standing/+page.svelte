@@ -98,10 +98,10 @@
 </script>
 
 <svelte:head>
-    <title>PenguinMod - Standing</title>
-    <meta name="title" content="PenguinMod - Standing" />
-    <meta property="og:title" content="PenguinMod - Standing" />
-    <meta property="twitter:title" content="PenguinMod - Standing">
+    <title>ArkIDE - Standing</title>
+    <meta name="title" content="ArkIDE - Standing" />
+    <meta property="og:title" content="ArkIDE - Standing" />
+    <meta property="twitter:title" content="ArkIDE - Standing">
     <meta name="description" content="See your account standing.">
     <meta property="twitter:description" content="See your account standing.">
     <meta property="og:url" content="https://penguinmod.com/standing">

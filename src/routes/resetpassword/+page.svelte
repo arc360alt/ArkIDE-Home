@@ -98,12 +98,12 @@
 </script>
     
 <svelte:head>
-    <title>PenguinMod - Reset Password</title>
-    <meta name="title" content="PenguinMod - Reset Password" />
-    <meta property="og:title" content="PenguinMod - Reset Password" />
-    <meta property="twitter:title" content="PenguinMod - Reset Password" />
-    <meta name="description" content="Reset your password for PenguinMod to regain access to your account with a new password" />
-    <meta property="twitter:description" content="Reset your password for PenguinMod to regain access to your account with a new password" />
+    <title>ArkIDE - Reset Password</title>
+    <meta name="title" content="ArkIDE - Reset Password" />
+    <meta property="og:title" content="ArkIDE - Reset Password" />
+    <meta property="twitter:title" content="ArkIDE - Reset Password" />
+    <meta name="description" content="Reset your password for ArkIDE to regain access to your account with a new password" />
+    <meta property="twitter:description" content="Reset your password for ArkIDE to regain access to your account with a new password" />
     <meta property="og:url" content="https://penguinmod.com/resetpassword">
     <meta property="twitter:url" content="https://penguinmod.com/resetpassword">
 </svelte:head>

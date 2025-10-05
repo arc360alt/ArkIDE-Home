@@ -300,7 +300,7 @@
 
     <Alert
         onlyShowID={"donatee:_2"}
-        text={"PenguinMod is a free-to-use visual coding website. Your support can help us keep the website working!"}
+        text={"ArkIDE is a free-to-use visual coding website. Your support can help us keep the website working!"}
         textBreakup={true}
         textColor={"white"}
         hasImage={true}
@@ -350,7 +350,7 @@
             {#if !thingyActive}
                 <img
                     src="/penguins/frontpage.svg"
-                    alt="PenguinMod"
+                    alt="ArkIDE"
                     style="margin-right: 8rem;"
                 />
             {:else}
@@ -375,7 +375,7 @@
                 />
                 <p>
                     <LocalizedText
-                        text="PenguinMod is made by English-speaking developers. Expect minor issues and sorry for any translation errors."
+                        text="ArkIDE is made by English-speaking developers. Expect minor issues and sorry for any translation errors."
                         key="translation.warning"
                         lang={currentLang}
                     />
@@ -413,7 +413,7 @@
             />
             <p>
                 <LocalizedText
-                    text="PenguinMod is made by English-speaking developers. Expect minor issues and sorry for any translation errors."
+                    text="ArkIDE is made by English-speaking developers. Expect minor issues and sorry for any translation errors."
                     key="translation.warning"
                     lang={currentLang}
                 />

@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-    <title>PenguinMod - Loading</title>
+    <title>ArkIDE - Loading</title>
     <meta name="title" content="ArkIDE - Home" />
     <meta property="og:title" content="ArkIDE - Home" />
     <meta property="twitter:title" content="ArkIDE - Home">

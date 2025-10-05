@@ -113,8 +113,8 @@
     <meta name="title" content="ArkIDE - Change Password With OAuth" />
     <meta property="og:title" content="ArkIDE - Change Password With OAuth" />
     <meta property="twitter:title" content="ArkIDE - Change Password With OAuth" />
-    <meta name="description" content="Change your password with OAuth for PenguinMod to access your account with a password or to just change it" />
-    <meta property="twitter:description" content="Change your password with OAuth for PenguinMod to access your account with a password or to just change it" />
+    <meta name="description" content="Change your password with OAuth for ArkIDE to access your account with a password or to just change it" />
+    <meta property="twitter:description" content="Change your password with OAuth for ArkIDE to access your account with a password or to just change it" />
     <meta property="og:url" content="https://penguinmod.com/oauthchangepassword">
     <meta property="twitter:url" content="https://penguinmod.com/oauthchangepassword">
 </svelte:head>

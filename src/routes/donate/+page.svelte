@@ -42,12 +42,12 @@
 </script>
 
 <svelte:head>
-    <title>PenguinMod - Donate</title>
-    <meta name="title"                   content="PenguinMod - Donate" />
-    <meta property="og:title"            content="PenguinMod - Donate" />
-    <meta property="twitter:title"       content="PenguinMod - Donate">
-    <meta name="description"             content="Help support PenguinMod and it's development!">
-    <meta property="twitter:description" content="Help support PenguinMod and it's development!">
+    <title>ArkIDE - Donate</title>
+    <meta name="title"                   content="ArkIDE - Donate" />
+    <meta property="og:title"            content="ArkIDE - Donate" />
+    <meta property="twitter:title"       content="ArkIDE - Donate">
+    <meta name="description"             content="Help support ArkIDE and it's development!">
+    <meta property="twitter:description" content="Help support ArkIDE and it's development!">
     <meta property="og:url"              content="https://penguinmod.com/donate">
     <meta property="twitter:url"         content="https://penguinmod.com/donate">
 </svelte:head>
@@ -68,7 +68,7 @@
             </h1>
             <p>
                 <LocalizedText
-                    text="Help PenguinMod pay for our servers, link & more!"
+                    text="Help ArkIDE pay for our servers, link & more!"
                     key="donate.description"
                     lang={currentLang}
                 />
@@ -84,7 +84,7 @@
             <div class="section-discussion">
                 <p>
                     <LocalizedText
-                        text="PenguinMod helps people around the world create the games that they want and share the fun stuff they make with the community."
+                        text="ArkIDE helps people around the world create the games that they want and share the fun stuff they make with the community."
                         key="donate.message1"
                         lang={currentLang}
                     />
@@ -93,7 +93,7 @@
                     {@html generateMarkdown(`${TranslationHandler.textSafe(
                         "donate.people1",
                         currentLang,
-                        "In the last month, ***$1 new people found PenguinMod*** and we sent our website to ***$2*** returning users."
+                        "In the last month, ***$1 new people found ArkIDE*** and we sent our website to ***$2*** returning users."
                     )
                     .replace('$1', (25000).toLocaleString())
                     .replace('$2', (55000).toLocaleString())}`)}
@@ -101,7 +101,7 @@
                     {@html generateMarkdown(`${TranslationHandler.textSafe(
                         "donate.people2",
                         currentLang,
-                        "Some people even use PenguinMod from the **United Kingdom**, **Japan**, **Brazil**, **Russia**, and more."
+                        "Some people even use ArkIDE from the **United Kingdom**, **Japan**, **Brazil**, **Russia**, and more."
                     )}`)}
                 </p>
                 <p>

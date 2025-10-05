@@ -102,12 +102,12 @@
 </script>
     
 <svelte:head>
-    <title>PenguinMod - Sign Up</title>
-    <meta name="title" content="PenguinMod - Sign Up" />
-    <meta property="og:title" content="PenguinMod - Sign Up" />
-    <meta property="twitter:title" content="PenguinMod - Sign Up">
-    <meta name="description" content="Sign up for PenguinMod to start sharing your projects!">
-    <meta property="twitter:description" content="Sign up for PenguinMod to start sharing your projects!">
+    <title>ArkIDE - Sign Up</title>
+    <meta name="title" content="ArkIDE - Sign Up" />
+    <meta property="og:title" content="ArkIDE - Sign Up" />
+    <meta property="twitter:title" content="ArkIDE - Sign Up">
+    <meta name="description" content="Sign up for ArkIDE to start sharing your projects!">
+    <meta property="twitter:description" content="Sign up for ArkIDE to start sharing your projects!">
     <meta property="og:url" content="https://penguinmod.com/forgotpassword">
     <meta property="twitter:url" content="https://penguinmod.com/forgotpassword">
 </svelte:head>
