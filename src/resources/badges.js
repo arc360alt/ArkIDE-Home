@@ -47,6 +47,9 @@ export default {
     likes: "likes_many",
     followers: "followers_many",
 
+    // ArkIDE Badges
+    keithcreator: "keithcreator",
+
     // auto but a bunch of stuff
     // studio50: "studio50",
     // likes100: "likes100",
