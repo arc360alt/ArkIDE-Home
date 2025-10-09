@@ -643,6 +643,16 @@
                                 This is a passion project of mine to learn more web development and homelabbing (yes im hosting my own server).
                                 <br />
                                 Remember, ArkIDE is in beta, so expect bugs and missing features. And that ArkIDE is NOT affiliated with Scratch, Turbowarp, or Penguinmod. This is a seperate project.
+                                <br />
+                                <br />
+                                here are some photos of the mascot:
+                                <br />
+                                <img src="whome.png" alt="ArkIDE Mascot 1" style="width: 12rem;"/>
+                                <img src="keithdissapoint.png" alt="ArkIDE Mascot 1" style="width: 12rem;"/>
+                                <img src="msuic.png" alt="ArkIDE Mascot 1" style="width: 12rem;"/>
+                                <img src="ohgod.png" alt="ArkIDE Mascot 1" style="width: 12rem;"/>
+                                <br />
+                                all art is by Insomnia64!!
                             </p>
                         </div>
                     </div>
