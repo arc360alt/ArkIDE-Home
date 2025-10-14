@@ -1028,7 +1028,7 @@
                 class="emoji-picker-button"
             >
                 <img
-                    src={`https://library.penguinmod.com/files/emojis/${emojiPickerRandomEmoji}.png`}
+                    src={`https://library.arkide.site/files/emojis/${emojiPickerRandomEmoji}.png`}
                     alt="Emoji"
                     title="Pick an emoji"
                     loading="lazy"
@@ -1080,7 +1080,7 @@
                                             placeEmojiInTextbox(emoji)}
                                     >
                                         <img
-                                            src={`https://library.penguinmod.com/files/emojis/${emoji}.png`}
+                                            src={`https://library.arkide.site/files/emojis/${emoji}.png`}
                                             alt={`:${emoji}:`}
                                             title={`:${emoji}:`}
                                             draggable="false"

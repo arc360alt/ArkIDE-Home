@@ -285,7 +285,7 @@
         return title.replace(emojiRegex, (match) => {
             const emojiName = match.replace(/\:/gmi, "");
             return `<img
-                src="https://library.penguinmod.com/files/emojis/${emojiName}.png"
+                src="https://library.arkide.site/files/emojis/${emojiName}.png"
                 alt=":${emojiName}:"
                 title=":${emojiName}:"
                 style="width:1.2rem;vertical-align: middle;"
@@ -701,7 +701,7 @@
             newText = newText.replace(regexRules.emoji, function(text) {
                 const emojiName = text.replace(/:/gmi, '');
                 return `<img
-                    src="https://library.penguinmod.com/files/emojis/${emojiName}.png"
+                    src="https://library.arkide.site/files/emojis/${emojiName}.png"
                     alt="${emojiName}"
                     title=":${emojiName}:"
                     class="profile-bio-emoji"
@@ -1084,7 +1084,7 @@
                                     class="emoji-picker-button"
                                 >
                                     <img
-                                        src={`https://library.penguinmod.com/files/emojis/${emojiPickerRandomEmoji}.png`}
+                                        src={`https://library.arkide.site/files/emojis/${emojiPickerRandomEmoji}.png`}
                                         alt="Emoji"
                                         title="Pick an emoji"
                                         loading="lazy"
@@ -1140,7 +1140,7 @@
                                                             on:click={() => placeEmojiInTextbox(emoji)}
                                                         >
                                                             <img
-                                                                src={`https://library.penguinmod.com/files/emojis/${emoji}.png`}
+                                                                src={`https://library.arkide.site/files/emojis/${emoji}.png`}
                                                                 alt={`:${emoji}:`}
                                                                 title={`:${emoji}:`}
                                                                 draggable="false"
@@ -1357,25 +1357,25 @@
                             <p class="small" style="margin-block:4px">
                                 {#if fullProfile.admin === true}
                                     <LocalizedText
-                                        text="King Penguin"
+                                        text="Keith Master"
                                         key="profile.ranking.admin"
                                         lang={currentLang}
                                     />
                                 {:else if fullProfile.approver === true}
                                     <LocalizedText
-                                        text="Guard Penguin"
+                                        text="Guard Keith"
                                         key="profile.ranking.mod"
                                         lang={currentLang}
                                     />
                                 {:else if fullProfile.rank === 1}
                                     <LocalizedText
-                                        text="Penguin"
+                                        text="Butterfly"
                                         key="profile.ranking.ranked"
                                         lang={currentLang}
                                     />
                                 {:else}
                                     <LocalizedText
-                                        text="Newborn Penguin"
+                                        text="Moth"
                                         key="profile.ranking.new"
                                         lang={currentLang}
                                     />

@@ -29,7 +29,7 @@
         return title.replace(emojiRegex, (match) => {
             const emojiName = match.replace(/\:/gmi, "");
             return `<img
-                src="https://library.penguinmod.com/files/emojis/${emojiName}.png"
+                src="https://library.arkide.site/files/emojis/${emojiName}.png"
                 alt=":${emojiName}:"
                 title=":${emojiName}:"
                 style="width:1em;vertical-align: middle;"
@@ -159,7 +159,7 @@
             newText = newText.replace(regexRules.emoji, function(text) {
                 const emojiName = text.replace(/:/gmi, '');
                 return `<img
-                    src="https://library.penguinmod.com/files/emojis/${emojiName}.png"
+                    src="https://library.arkide.site/files/emojis/${emojiName}.png"
                     alt="${emojiName}"
                     title=":${emojiName}:"
                     class="profile-bio-emoji"

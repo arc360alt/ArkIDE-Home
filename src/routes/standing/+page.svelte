@@ -138,7 +138,7 @@
                     </div>
                     <AccountStatus
                         username={deletedUsername}
-                        image="https://library.penguinmod.com/files/emojis/exclamation.png"
+                        image="https://library.arkide.site/files/emojis/exclamation.png"
                         showname={!!deletedUsername}
                         showpfp={true}
                         showdeleted={true}

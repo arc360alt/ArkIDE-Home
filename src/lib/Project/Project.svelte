@@ -39,7 +39,7 @@
         return title.replace(emojiRegex, (match) => {
             const emojiName = match.replace(/\:/gmi, "");
             return `<img
-                src="https://library.penguinmod.com/files/emojis/${emojiName}.png"
+                src="https://library.arkide.site/files/emojis/${emojiName}.png"
                 alt=":${emojiName}:"
                 title=":${emojiName}:"
                 style="width:1.2rem;vertical-align: middle;"
