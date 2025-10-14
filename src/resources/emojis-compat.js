@@ -290,7 +290,10 @@ const emojiList = [
   "arrow_up",
   "arrow_down",
   "arrow_right",
-  "penguin"
+  "penguin",
+  "keith",
+  "absolutekeith",
+  "idontknowityet"
 ].sort();
 
 export function mockRequest() {
