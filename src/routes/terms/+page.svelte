@@ -175,7 +175,7 @@
             <h2>Contact</h2>
 
             <p>Email us at <a href="mailto:penguinmodhelp@gmail.com">penguinmodhelp@gmail.com</a></p>
-            <p>Join <a href="https://discord.gg/NZ9MBMYTZh">our Discord Server</a></p>
+            <p>Join <a href="https://discord.gg/aPRchS3Zdp">our Discord Server</a></p>
 
             <div style="width: 100%; height: 32px;"></div>
 
