@@ -293,7 +293,16 @@ const emojiList = [
   "penguin",
   "keith",
   "absolutekeith",
-  "idontknowityet"
+  "idontknowityet",
+  "smug-ahh",
+  "rawr",
+  "nahwhat",
+  "imcrinebro",
+  "keithhappy",
+  "ermactually",
+  "disgust",
+  "disgust2",
+  "checkmate"
 ].sort();
 
 export function mockRequest() {
