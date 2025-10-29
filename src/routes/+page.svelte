@@ -651,6 +651,8 @@
                                 <img src="keithdissapoint.png" alt="ArkIDE Mascot 1" style="width: 12rem;"/>
                                 <img src="msuic.png" alt="ArkIDE Mascot 1" style="width: 12rem;"/>
                                 <img src="ohgod.png" alt="ArkIDE Mascot 1" style="width: 12rem;"/>
+                                <img src="imatakeith.png" alt="ArkIDE Mascot 1" style="width: 12rem;"/>
+                                <img src="patternregognition.png" alt="ArkIDE Mascot 1" style="width: 12rem;"/>
                                 <br />
                                 all art is by Insomnia64!!
                             </p>

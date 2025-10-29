@@ -49,6 +49,8 @@ export default {
 
     // ArkIDE Badges
     keithcreator: "keithcreator",
+    totalynotafurry: "totalynotafurry",
+    mainantagonist: "mainantagonist",
 
     // auto but a bunch of stuff
     // studio50: "studio50",
