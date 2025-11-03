@@ -29,8 +29,8 @@
         <meta property="twitter:title" content="ArkIDE - Terms of Service">
         <meta name="description" content="Terms you must follow if you would like to use ArkIDE.">
         <meta property="twitter:description" content="Terms you must follow if you would like to use ArkIDE.">
-        <meta property="og:url" content="https://penguinmod.com/terms">
-        <meta property="twitter:url" content="https://penguinmod.com/terms">
+        <meta property="og:url" content="https://arkide.site/terms">
+        <meta property="twitter:url" content="https://arkide.site/terms">
     </svelte:head>
     
     <NavigationBar />
@@ -49,11 +49,11 @@
             <!-- some things are intentionally not formatted as they are in the HTML file on the website -->
             <p>
                 This document applies to
-                <a href="https://penguinmod.com">https://penguinmod.com</a>,
+                <a href="https://arkide.site">https://arkide.site</a>,
                 <a href="{PUBLIC_STUDIO_URL}">{PUBLIC_STUDIO_URL}</a>,
-                <a href="https://extensions.penguinmod.com">https://extensions.penguinmod.com</a>,
-                <a href="https://projects.penguinmod.com">https://projects.penguinmod.com</a>,
-                and any other penguinmod.com subdomains.
+                <a href="https://extensions.arkide.site">https://extensions.arkide.site</a>,
+                <a href="https://projects.arkide.site">https://projects.arkide.site</a>,
+                and any other arkide.site subdomains.
             </p>
             <p>
                 You may see websites such as <a href="https://scratch.mit.edu/">"Scratch"</a>,
@@ -63,9 +63,9 @@
             </p>
             <p>
                 A "Service Administrator", "Admin", "Moderator", "Mod" or "Administrator" is a person who can either
-                directly access the server files for PenguinMod,
+                directly access the server files for ArkIDE,
                 or a person who can contact the server host that is able to access the server files and server process.
-                "Host" may also refer to the server host of PenguinMod's project sharing.
+                "Host" may also refer to the server host of ArkIDE's project sharing.
             </p>
             <p>
                 A "Project Moderator" is a person who has the ability to remove projects or content from those projects,
@@ -77,36 +77,36 @@
 
             <h2>General</h2>
             <p>
-                By using PenguinMod, you agree to the terms outlined below. If you do not agree with these terms, please refrain from
+                By using ArkIDE, you agree to the terms outlined below. If you do not agree with these terms, please refrain from
                 using our website.
             </p>
 
-            <h2>Your use of PenguinMod</h2>
+            <h2>Your use of ArkIDE</h2>
             <p>
-                When uploading projects or posting content on PenguinMod, your content must abide by the
-                <a href="https://penguinmod.com/guidelines/uploading">Uploading Guidelines</a> and Terms of Service
+                When uploading projects or posting content on ArkIDE, your content must abide by the
+                <a href="https://arkide.site/guidelines/uploading">Uploading Guidelines</a> and Terms of Service
                 at all times. 
             </p>
             <p>
                 Failure to follow these rules may result in restrictions on publishing projects, updating projects, remixing projects, or editing profile information. 
-                PenguinMod has the right to remove/limit your access to any services we provide if we believe you
+                ArkIDE has the right to remove/limit your access to any services we provide if we believe you
                 are violating these guidelines or the Terms of Service.
             </p>
             <p>
                 Accounts may be limited from certain features, deleted, or prevented from being used if they are found to violate the 
-                <a href="https://penguinmod.com/guidelines/uploading">Uploading Guidelines</a> or the Terms of Service.
+                <a href="https://arkide.site/guidelines/uploading">Uploading Guidelines</a> or the Terms of Service.
             </p>
             <p>
-                Engaging in or encouraging abusive behavior toward PenguinMod systems, such as mass reporting, impersonation,
+                Engaging in or encouraging abusive behavior toward ArkIDE systems, such as mass reporting, impersonation,
                 exploiting bugs to cause harm, botting, manipulating statistics like likes, votes, and views,
-                circumventing bans or deletions, or incentivizing others to break PenguinMod's rules, is strictly prohibited.
+                circumventing bans or deletions, or incentivizing others to break ArkIDE's rules, is strictly prohibited.
                 <br>
-                Violations may lead to limiting your account's access to certain features, account deletion, or permanent loss of access to PenguinMod's services.
+                Violations may lead to limiting your account's access to certain features, account deletion, or permanent loss of access to ArkIDE's services.
             </p>
             <p>
-                Using PenguinMod's services to engage in, promote, or facilitate illegal activities, including but not limited to breaking laws in your country, region, or area, is strictly prohibited.
+                Using ArkIDE's services to engage in, promote, or facilitate illegal activities, including but not limited to breaking laws in your country, region, or area, is strictly prohibited.
                 <br>
-                Violations may lead to limiting your account's access to certain features, account deletion, or permanent loss of access to PenguinMod's services.
+                Violations may lead to limiting your account's access to certain features, account deletion, or permanent loss of access to ArkIDE's services.
                 <br>
                 Serious offenses may result in your account information being shared with law enforcement authorities.
             </p>
@@ -114,7 +114,7 @@
             <h2>Copyright</h2>
             <p>
                 You may not include copyrighted content in your projects. You are responsible for making sure you have the necessary
-                rights, licenses, or permission for any user-generated content you submit to PenguinMod. You may get your projects, profile info
+                rights, licenses, or permission for any user-generated content you submit to ArkIDE. You may get your projects, profile info
                 or posts removed, and or face punishment if you do not properly check whether or not you have permission to include something
                 in your content.
             </p>
@@ -125,23 +125,23 @@
 
             <h2>Advertisements</h2>
             <p>
-                We may use Google AdSense to display advertisements on PenguinMod. These ads are provided by Google
+                We may use Google AdSense to display advertisements on ArkIDE. These ads are provided by Google
                 and are subject to Google's policies. ArkIDE is not responsible for the content of these ads.
             </p>
 
             <h2>Security</h2>
             <ul>
-                <li><b>Authentication System:</b> PenguinMod allows users to use third-party websites to login or create accounts, such as
+                <li><b>Authentication System:</b> ArkIDE allows users to use third-party websites to login or create accounts, such as
                     <a href="https://oauth2.scratch-wiki.info/">"Scratch OAuth2"</a>,
                     <a href="https://google.com/">"Google"</a>,
                     or <a href="https://github.com/">"GitHub"</a>
-                    . PenguinMod also provides it's own secure authentication system for account creation and login.</li>
-                <li><b>Vulnerabilities:</b> PenguinMod has active developers and a small set of users looking through our code to ensure proper security.</li>
+                    . ArkIDE also provides it's own secure authentication system for account creation and login.</li>
+                <li><b>Vulnerabilities:</b> ArkIDE has active developers and a small set of users looking through our code to ensure proper security.</li>
             </ul>
 
             <h2>Exclusion of Damages</h2>
             <p>
-                PenguinMod, its owners, administrators, and affiliates do not assume responsibility for
+                ArkIDE, its owners, administrators, and affiliates do not assume responsibility for
                 any issues, damages, or consequences arising from the use of the website.
             </p>
             <p>
@@ -151,30 +151,30 @@
 
             <h2>Use at Your Own Risk</h2>
             <p>
-                Despite above security measures, users must acknowledge that they are using PenguinMod at their own risk.
+                Despite above security measures, users must acknowledge that they are using ArkIDE at their own risk.
                 ArkIDE is not responsible for any harm, loss, or damage to users' devices, data, or any other property.
             </p>
 
             <h2>Warranties</h2>
             <p>
-                PenguinMod makes no warranties, express or implied, regarding the accuracy,
+                ArkIDE makes no warranties, express or implied, regarding the accuracy,
                 reliability, or availability of the website or its content.
             </p>
 
             <h2>Changes to Terms</h2>
             <p>
-                PenguinMod reserves the right to update or modify these terms of service at any time. Users are
+                ArkIDE reserves the right to update or modify these terms of service at any time. Users are
                 encouraged to review this document periodically for any changes.
             </p><p>
-                PenguinMod will make effort to let users know of any changes to Uploading Guidelines, Terms of Service, or Privacy Policy through
-                the website's messaging system and third-party services PenguinMod may have a precense on.
+                ArkIDE will make effort to let users know of any changes to Uploading Guidelines, Terms of Service, or Privacy Policy through
+                the website's messaging system and third-party services ArkIDE may have a precense on.
             </p><p>
-                By continuing to use PenguinMod, you agree to abide by the most recent version of these terms.
+                By continuing to use ArkIDE, you agree to abide by the most recent version of these terms.
             </p>
 
             <h2>Contact</h2>
 
-            <p>Email us at <a href="mailto:penguinmodhelp@gmail.com">penguinmodhelp@gmail.com</a></p>
+            <p>Email us at <a href="mailto:ArkIDEhelp@gmail.com">ArkIDEhelp@gmail.com</a></p>
             <p>Join <a href="https://discord.gg/aPRchS3Zdp">our Discord Server</a></p>
 
             <div style="width: 100%; height: 32px;"></div>

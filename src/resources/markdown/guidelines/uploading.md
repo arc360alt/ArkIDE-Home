@@ -1,18 +1,18 @@
 # Project Uploading & Updating guidelines
-These guidelines **only apply to PenguinMod's project sharing**.
-If you are [packaging your project](https://studio.penguinmod.com/PenguinMod-Packager/) to post on other websites, you should follow their rules instead.
+These guidelines **only apply to Arkide's project sharing**.
+If you are [packaging your project](https://studio.Arkide.site/Arkide-Packager/) to post on other websites, you should follow their rules instead.
 
-Also, let us know of any necessary changes we should make by talking to us [using any of these contact methods here.](https://studio.penguinmod.com/contact.html)
+Also, let us know of any necessary changes we should make by talking to us [using any of these contact methods here.](https://studio.Arkide.site/contact.html)
 
 ## How to report projects/users
 Clicking on a "Report" link on a user's profile will open a new tab to report the person.
-Clicking on a "Report" link below a project on PenguinMod Studio will open a new tab to report the project.
+Clicking on a "Report" link below a project on Arkide Studio will open a new tab to report the project.
 Please use these menus to report content as it is easy for our moderators to view & handle.
 
 Using the report feature multiple times on the same content will result in moderation action on your account.
 Please only report projects or users once. You may specify multiple reasons to report content on the report page by choosing "Other" as a report reason.
 
-If for any reason you cannot access the report page, please contact us [using any of these contact methods here.](https://studio.penguinmod.com/contact.html)
+If for any reason you cannot access the report page, please contact us [using any of these contact methods here.](https://studio.Arkide.site/contact.html)
 
 ---
 
@@ -38,53 +38,53 @@ Users should be properly credited within your project's info.
 Your project may be removed if moderators are informed that specific people or groups are not mentioned in your project's notes & credits.
 
 Using short-terms like "credit to all" or "C2A" cannot replace the use of individual mentions.
-If a user or group is not on PenguinMod, you may use their name instead.
+If a user or group is not on Arkide, you may use their name instead.
 
 Please note, you do not need to credit the use of:
-- PenguinMod as a platform
-- PenguinMod extensions used inside the project (custom extensions not included)
+- Arkide as a platform
+- Arkide extensions used inside the project (custom extensions not included)
 - Your own created content (if you don't want to mention yourself)
 
 # Spam / Project updates
 Do not just upload the same project multiple times.
 To properly update a project, you can either:
 - Click on the Update button on the Upload page, and click on any project.
-- Go to the "My Stuff" page (or click the folder icon) on PenguinMod's home page and click the 3 dots on any project, then click "Edit Project".
+- Go to the "My Stuff" page (or click the folder icon) on Arkide's home page and click the 3 dots on any project, then click "Edit Project".
 
 If you keep uploading the same project multiple times, you may not be able to post projects for a day or more
 (depending on if you already got punished for it).
 
 # Projects uploaded that were shared on Scratch (Scratch Reuploads)
-If you are just taking a Scratch project that was shared on Scratch and uploading it onto PenguinMod, please note the following:
+If you are just taking a Scratch project that was shared on Scratch and uploading it onto Arkide, please note the following:
 
 - You must own the project you are reuploading. Reuploading other user's projects is not allowed as of January 27th, 2024.
 - If you are given permission to reupload another user's project, please include proof in the project's notes.
 
 Moderators may remove your project if you reupload other people's projects without their permission.
 
-The original creators of the project have the right to remove your PenguinMod reupload if they report the project.
+The original creators of the project have the right to remove your Arkide reupload if they report the project.
 This is also true even if you have stated you have permission to reupload the project by the original creator.
 
-# PenguinMod Mods / Forks
-If your project only works outside of PenguinMod, don't upload it to our site.
-All PenguinMod projects should actually work on PenguinMod, please upload your project to it's respective site to avoid problems for us.
+# Arkide Mods / Forks
+If your project only works outside of Arkide, don't upload it to our site.
+All Arkide projects should actually work on Arkide, please upload your project to it's respective site to avoid problems for us.
 
-*(Note for developers: If we get a lot of projects uploaded from your mod that don't work on PenguinMod, we'll likely end up blocking your site from the API. See [here for details](https://github.com/PenguinMod/penguinmod.github.io/blob/develop/FORKING.md).)*
+*(Note for developers: If we get a lot of projects uploaded from your mod that don't work on Arkide, we'll likely end up blocking your site from the API. See [here for details](https://github.com/Arkide/Arkide.github.io/blob/develop/FORKING.md).)*
 
 # "Chatroom" Projects or Projects based around online chatting
 ```warning
-As of November 14th, 2023, PenguinMod has decided to ban uploaded projects based around chatting with other users.
+As of November 14th, 2023, Arkide has decided to ban uploaded projects based around chatting with other users.
 ```
 
 Please do not upload these types of projects anymore.
 Old projects may also be reported and taken down, but you will not receive punishment for them.
 
-These types of projects are no longer allowed due to the PenguinMod team not being able to control these spaces properly,
+These types of projects are no longer allowed due to the Arkide team not being able to control these spaces properly,
 and we do not believe we will be able to keep these types of projects safe for everyone in the future.
 
 # Projects with an online chat feature
 ```warning
-As of November 14th, 2023, PenguinMod has decided to ban uploaded projects based around chatting with other users.
+As of November 14th, 2023, Arkide has decided to ban uploaded projects based around chatting with other users.
 ```
 This section is talking about projects that have online chat, but aren't focused around it.
 
@@ -96,7 +96,7 @@ We are planning on developing online chat systems to allow creators to have a mo
 
 There is no estimated time when this guideline will be lifted, or when our online chat system will be usable for these projects.
 
-# Preventing or Removing access to parts of PenguinMod
+# Preventing or Removing access to parts of Arkide
 You may not remove or prevent access to any part of the project or website.
 You may change what the pause and stop buttons do on a project if they do similar actions to what they did originally.
 Pausing a project should always pause or stop all audio or video aswell.
@@ -107,18 +107,18 @@ Actions that may result in the removal of your project include, but are not limi
 - Removing sprites, costumes or sounds if the project is opened
 
 If the moderators can not access the project and its contents from within the site, it will be removed.
-Using these actions to prevent remixing or reuploading will be implemented into PenguinMod at a later date.
+Using these actions to prevent remixing or reuploading will be implemented into Arkide at a later date.
 Preventing remixing or reuploading currently will get your project removed as it will limit the ability for moderators to access your project.
 
-# Exploiting or Abusing PenguinMod systems
-You are not allowed to encourage, create, or upload projects that abuse PenguinMod's systems.
+# Exploiting or Abusing Arkide systems
+You are not allowed to encourage, create, or upload projects that abuse Arkide's systems.
 This means you can't make projects that:
 - Report other users or projects in large amounts (mass-reporting)
-- Reward or encourage others to break PenguinMod's rules
-- Try to get around PenguinMod's time limits, like uploading projects too quickly
+- Reward or encourage others to break Arkide's rules
+- Try to get around Arkide's time limits, like uploading projects too quickly
 - Include or use tools to spam reports, project views/loves/votes, or create fake/bot accounts
 - Show ways to avoid bans, account deletions, or other punishments
-- Abuse a bug/glitch in PenguinMod to harm other users or projects
+- Abuse a bug/glitch in Arkide to harm other users or projects
 
 Your account may be banned or deleted for breaking these rules and your project may be removed.
 
@@ -145,7 +145,7 @@ Be respectful of any real-world events that harmed others in any way.
 (don't make fun of people who were affected, or don't make a comedic version of the event.)
 
 You cannot threaten, intimidate, harass, or bully others in any form. This includes but is not limited to:
-- Harassment, intimidation, or humiliation of PenguinMod users through other platforms
+- Harassment, intimidation, or humiliation of Arkide users through other platforms
 - Direct threats of physical harm or violence against individuals or groups
 - Stalking or repeated messages, comments, or requests for personal information of another user
 - Sharing personal information about another user, mainly with the intent to harm or intimidate them
@@ -203,13 +203,13 @@ Downloading malicious material may be an executable application or DLL that cont
 Your account will be instantly banned and you may be reported to the Scratch Team or security services if your project does this.
 
 # Relationships/Online dating
-You cannot use PenguinMod as a platform for online dating, or creating/sharing romantic or sexual relationships.
+You cannot use Arkide as a platform for online dating, or creating/sharing romantic or sexual relationships.
 You cannot show real people, or characters that represent people doing:
 - Dating
 - Kissing
 - Similar romantic behavior
 
-You should not call other users "boyfriend" or "girlfriend" on PenguinMod as other users can be of any age, and we need to keep everyone safe.
+You should not call other users "boyfriend" or "girlfriend" on Arkide as other users can be of any age, and we need to keep everyone safe.
 Online dating or relationships with strangers is seriously dangerous and we will remove users from interacting with the platform if we need to.
 
 # Profanity (Curse words/Swear words, Swearing, Explicit/Strong language)
@@ -257,7 +257,7 @@ You may receive heavy punishment including an account ban if these rules are bro
 You cannot display or encourage others to take drugs (medical, illegal, etc.), drink alcohol, or vape.
 Displaying drugs (medical, illegal, etc.) in any context is not allowed. This also includes the act of dealing/providing drugs.
 
-Do not use PenguinMod to break laws in your country, region, or area.
+Do not use Arkide to break laws in your country, region, or area.
 
 You cannot encourage others to use real-life guns or explosives.
 You also cannot:
@@ -267,7 +267,7 @@ You also cannot:
 # Political content
 Please note ArkIDE is not a platform for primarily political projects or messages.
 
-Projects that primarily exist to promote political ideologies, parties, candidates, or causes are not allowed on PenguinMod.
+Projects that primarily exist to promote political ideologies, parties, candidates, or causes are not allowed on Arkide.
 
 Usage of political themes for educational purposes or the setting of a story is allowed.
 
@@ -294,12 +294,12 @@ Please note that any monetization efforts should be transparent and respectful.
 Avoid using deceptive practices or misleading users around your products.
 If you do not abide by these rules, your account can still be punished even if you are using an allowed platform.
 
-If you need any extra details for your specific use of these platforms, please talk to us [using any of these contact methods here.](https://studio.penguinmod.com/contact.html)
+If you need any extra details for your specific use of these platforms, please talk to us [using any of these contact methods here.](https://studio.Arkide.site/contact.html)
 If you would like to use other platforms not mentioned here, please reach out to us for approval. Do note it is very unlikely we will allow more platforms.
 
 # Copyright
-You are responsible for making sure you have the necessary rights, licenses, or permission for any user-generated content you submit to PenguinMod.
-PenguinMod will remove your project if the project violates copyright rules for any specific company or individual, and you may face further punishment.
+You are responsible for making sure you have the necessary rights, licenses, or permission for any user-generated content you submit to Arkide.
+Arkide will remove your project if the project violates copyright rules for any specific company or individual, and you may face further punishment.
 Any company, business, or individual reserves the right to take down your project if they believe it violates their copyright.
 
 You also may not include pirated content or instructions/tools that allow the viewing/use of paid content without actually paying.
@@ -308,6 +308,6 @@ Including pirated content means you cannot provide audio, videos, software, vide
 Reasons your project might be removed include, but are not limited to:
 - Including logos or designs without explicit permission from the owner(s)
 - Using other people's artwork or music without explicit permission from the owner(s)
-- Using/Repurposing content from another PenguinMod user without their permission
+- Using/Repurposing content from another Arkide user without their permission
 
-If you are a company or individual and believe your copyright has been violated, [please check contact methods here.](https://studio.penguinmod.com/contact.html)
+If you are a company or individual and believe your copyright has been violated, [please check contact methods here.](https://studio.Arkide.site/contact.html)
