@@ -229,12 +229,11 @@
                 {@html generateMarkdown(`${TranslationHandler.textSafe(
                     "login.linkto.oldaccounts2025.line1",
                     currentLang,
-                    "Due to server issues, accounts & projects created from November 2024 to January 2025 have been deleted."
+                    "Email verification does not work yet, you will have to stay with an unverified email for now. This will be fixed soon."
                 )}
                 ${TranslationHandler.textSafe(
                     "login.linkto.oldaccounts2025.line2",
                     currentLang,
-                    "Check the post [here](https://penguinmod.com/devposts/3-18-2025-shutdown-incident) for more information."
                 )}`)}
             </div>
         
@@ -610,7 +609,7 @@
     }
     :global(body.dark-mode) :global(a),
     :global(body.dark-mode) a {
-        color: rgb(73, 164, 255);
+        color: rgb(91, 73, 255);
     }
 
     .Login-acc {
@@ -624,7 +623,7 @@
         justify-content: center;
         border: 1px solid rgba(0, 0, 0, 0.2);
         font-size: 18px;
-        background: #00546d;
+        background: #21006d;
         color: grey;
     }
 

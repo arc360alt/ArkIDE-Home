@@ -88,14 +88,14 @@
     />
     <h1>
         <LocalizedText
-            text="You are leaving PenguinMod"
+            text="You are leaving ArkIDE"
             key="redirect.title"
             lang={currentLang}
         />
     </h1>
     <p>
         <LocalizedText
-            text="You are leaving PenguinMod to visit &qt;{"{{WEBSITE_URL}}"}. Content on this site may not be safe for everyone."
+            text="You are leaving ArkIDE to visit &qt;{"{{WEBSITE_URL}}"}. Content on this site may not be safe for everyone."
             key="redirect.message1"
             html={true}
             replace={{

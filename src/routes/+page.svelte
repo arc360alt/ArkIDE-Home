@@ -435,18 +435,25 @@
         <!-- svelte-ignore empty-block -->
         {#if !loggedIn}
         {:else}
-            <div class="welcome-back-card">
-                <img
-                    src={`${PUBLIC_API_URL}/api/v1/users/getpfp?username=${loggedInUsername}`}
-                    alt="Profile"
-                    class="profile-picture"
-                />
-                <h1>
-                    {TranslationHandler.text(
-                        "home.welcome",
-                        currentLang
-                    ).replace('$1', loggedInUsername)}
-                </h1>
+                <div class="welcome-back-card">
+                    <div class="profile-picture-container">
+                        <img
+                            src={`${PUBLIC_API_URL}/api/v1/users/getpfp?username=${loggedInUsername}`}
+                            alt="Profile"
+                            class="profile-picture"
+                        />
+                        <img
+                            src="/hat.png"
+                            alt="Christmas Hat"
+                            class="christmas-hat"
+                        />
+                    </div>
+                    <h1>
+                        {TranslationHandler.text(
+                            "home.welcome",
+                            currentLang
+                        ).replace('$1', loggedInUsername)}
+                    </h1>
                 <div class="welcome-back-row">
                     <a href={LINK.editor} class="welcome-back-no-underline">
                         <button class="welcome-back-button">
@@ -598,14 +605,14 @@
                     "home.sections.whatsnew",
                     currentLang
                 )}
-                seemore={`https://discord.com/channels/1033551490331197462/1038252360184643674`}
+                seemore={`https://discord.com/channels/1428107671730393101/1428110015813910705`}
             >
                 <div class="category-content">
                     {#if updates.length > 0}
                         {#each updates as update}
                             <UserDisplay
-                                link={`https://discord.com/channels/1033551490331197462/1038252360184643674`}
-                                userLink={`https://discord.com/channels/1033551490331197462/1038252360184643674`}
+                                link={`https://discord.com/channels/1428107671730393101/1428110015813910705`}
+                                userLink={`https://discord.com/channels/1428107671730393101/1428110015813910705`}
                                 text={update.cleanContent}
                                 author={update.authorName}
                                 image={update.authorImage}
@@ -1078,6 +1085,33 @@
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     }
 
+    /* Chrismas stuff :D */
+.profile-picture-container {
+    position: relative;
+    display: inline-block;
+}
+
+.profile-picture {
+    display: block;
+}
+
+.christmas-hat {
+    position: absolute;
+    top: -75%; 
+    left: 60%;
+    transform: translateX(-50%);
+    width: 150%; 
+    height: auto;
+    pointer-events: none; 
+    z-index: 10;
+    animation: festiveWiggle 2s ease-in-out infinite;
+}
+
+@keyframes festiveWiggle {
+    0%, 100% { transform: translateX(-50%) rotate(-2deg); }
+    50% { transform: translateX(-50%) rotate(2deg); }
+}
+
     .footer {
         display: flex;
         flex-direction: column;
@@ -1198,7 +1232,7 @@
     .section-toggle-button {
         border-radius: 1024px;
         padding: 4px 10px;
-        background: #008cff;
+        background: #003cff;
         font-weight: bold;
         font-size: 1em;
         border: 0;
@@ -1208,7 +1242,7 @@
         white-space: nowrap;
     }
     .section-toggle-button[data-active="true"] {
-        background: #003bdd;
+        background: #5500dd;
     }
 
     .profile-picture {

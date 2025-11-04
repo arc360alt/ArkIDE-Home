@@ -467,26 +467,28 @@
 		--penguinmod-color: #4634eb;
 	}
 
-	.bar {
-		position: fixed;
-		width: 100%;
-		left: 0px;
-		top: 0px;
-		background: var(--penguinmod-color);
-		height: 3rem;
-		color: white;
-		display: flex;
-		flex-direction: row;
-		justify-content: center;
-		align-items: center;
-		flex-wrap: nowrap;
-		box-sizing: border-box;
-		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-		font-size: 0.75rem;
-		font-weight: bold;
-		min-width: 1000px;
-		z-index: 1000;
-	}
+.bar {
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    background: rgba(98, 81, 255, 0.72); /* Made semi-transparent (was var(--penguinmod-color)) */
+    backdrop-filter: blur(10px); /* Add blur effect */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    height: 3rem;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 0.75rem;
+    font-weight: bold;
+    min-width: 1000px;
+    z-index: 1000;
+}
 	:global(body.launcher-mode) .bar {
 		width: 5rem;
 		height: 100%;
@@ -643,71 +645,75 @@
 		margin-right: initial;
 		margin-left: 8px;
 	}
-	.profile-dropdown {
-		background: transparent;
-		border-radius: 4px;
-		padding: 0 10px;
-		border: 0;
-		margin: 0;
+.profile-dropdown {
+    background: transparent;
+    border-radius: 4px;
+    padding: 0 10px;
+    border: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    user-select: none;
+}
 
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-		justify-content: space-between;
+.profile-dropdown > p {
+    font-weight: bold;
+    font-size: 0.85rem;
+    color: white;
+}
 
-		cursor: pointer;
-		user-select: none;
-	}
-	.profile-dropdown > p {
-		font-weight: bold;
-		font-size: 0.85rem;
-		color: white;
-	}
+.profile-dropdown:hover,
+.profile-dropdown:focus {
+    background: rgba(0, 0, 0, 0.15);
+}
 
-	.profile-dropdown:hover,
-	.profile-dropdown:focus {
-		background: rgba(0, 0, 0, 0.15);
-	}
+.profile-dropdown-menu {
+    position: fixed;
+    background: rgba(98, 81, 255, 0.72); /* Made semi-transparent */
+    backdrop-filter: blur(10px); /* Add blur effect */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    padding: 4px 0;
+    border-top: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    z-index: 9999;
+}
 
-	.profile-dropdown-menu {
-		position: fixed;
-		background: var(--penguinmod-color);
-		border-radius: 4px;
-		border: 1px solid rgba(0, 0, 0, 0.15);
-		padding: 4px 0;
-		border-top: 0;
-		border-top-left-radius: 0;
-		border-top-right-radius: 0;
-		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-		z-index: 9999;
-	}
-	.profile-dropdown-menu button {
-		background: transparent;
-		font-weight: bold;
-		font-size: 0.85rem;
-		text-align: left;
-		width: 100%;
-		color: white;
-		border: 0;
-		padding: 8px 8px;
-		padding-right: 4px;
-		margin: 4px 0;
-		text-decoration: none;
-		cursor: pointer;
-		user-select: none;
-	}
-	:global(html[dir="rtl"]) .profile-dropdown-menu button {
-		text-align: right;
-	}
-	.profile-dropdown-menu button:hover {
-		background: rgba(0, 0, 0, 0.15);
-	}
+.profile-dropdown-menu button {
+    background: transparent;
+    font-weight: bold;
+    font-size: 0.85rem;
+    text-align: left;
+    width: 100%;
+    color: white;
+    border: 0;
+    padding: 8px 8px;
+    padding-right: 4px;
+    margin: 4px 0;
+    text-decoration: none;
+    cursor: pointer;
+    user-select: none;
+}
 
-	.profile-dropdown-menu .seperated-navopt {
-		border-top: 1px solid rgba(0, 0, 0, 0.15);
-		width: calc(100% - 8px);
-		margin-left: 4px;
-	}
+:global(html[dir="rtl"]) .profile-dropdown-menu button {
+    text-align: right;
+}
+
+.profile-dropdown-menu button:hover {
+    background: rgba(0, 0, 0, 0.25); /* Made slightly more visible on hover */
+}
+
+.profile-dropdown-menu .seperated-navopt {
+    border-top: 1px solid rgba(255, 255, 255, 0.2); /* Changed to white with transparency for better visibility */
+    width: calc(100% - 8px);
+    margin-left: 4px;
+}
 
 	.only-non-launcher {
 		display: initial;
