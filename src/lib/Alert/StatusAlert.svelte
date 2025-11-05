@@ -32,7 +32,7 @@
         textColor="black"
         hasButton={true}
         buttonText="Details"
-        buttonHref={"https://status.ArkIDE.com/"}
+        buttonHref={"https://status.arkide.site/"}
         buttonTooLight={true}
     />
 {/if}

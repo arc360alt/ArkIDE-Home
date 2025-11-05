@@ -64,12 +64,12 @@ export default {
     /**
      * PenguinMod's home page
      */
-    home: "https://penguinmod.com/",
+    home: "https://arkide.site/",
 
     /**
      * PenguinMod's packager page
      */
-    packager: `${PUBLIC_STUDIO_URL}/PenguinMod-Packager/`,
+    packager: `${PUBLIC_STUDIO_URL}/ArkIDE-Packager/`,
 
     /**
      * PenguinMod's unofficial wiki
