@@ -99,7 +99,7 @@ export default {
     /**
      * PenguinMod's basic API
      */
-    basicApi: "https://no/",
+    basicApi: "https://arkidebasicapi.arkide.site/",
 
     /**
      * The admin panel for pm projects api
