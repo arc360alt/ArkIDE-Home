@@ -1897,7 +1897,7 @@ Promise.all([
         height: 35px;
         font-size: medium;
         font-weight: bold;
-        background-color: rgb(0, 195, 255);
+        background-color: rgb(119, 0, 255);
         color: white;
         border-radius: 10px;
         border-color: rgba(0, 0, 0, 0.25);
@@ -1993,10 +1993,10 @@ Promise.all([
     }
     .christmas-hat {
         position: absolute;
-        top: -35px;
-        left: 50%;
+        top: -42px;
+        left: 55%;
         transform: translateX(-50%);
-        width: 90px;
+        width: 110px;
         height: auto;
         z-index: 10;
         pointer-events: none;
@@ -2305,7 +2305,7 @@ Promise.all([
         height: 35px;
         font-size: medium;
         font-weight: bold;
-        background-color: rgb(0, 195, 255);
+        background-color: rgb(89, 0, 255);
         color: white;
         border-radius: 10px;
         border-color: rgba(0, 0, 0, 0.25);
