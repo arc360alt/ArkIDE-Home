@@ -46,7 +46,7 @@ getFollowing(username) {
         .then(r => r.json());
 }
 getFollowers(username) {
-    return fetch(`http://arkideapi.arc360hub.com/api/v1/users/meta/getfollowing?username=${encodeURIComponent(username)}`)
+    return fetch(`https://arkideapi.arc360hub.com/api/v1/users/meta/getfollowing?username=${encodeURIComponent(username)}`)
         .then(r => r.json());
 }
 async getAllUsers() {
