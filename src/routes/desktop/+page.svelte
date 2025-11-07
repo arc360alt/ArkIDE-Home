@@ -24,7 +24,7 @@
             // arm64: "https://example.com/arkide-windows-arm64.exe"
         },
         linux: {
-            x86: "https://github.com/The-ArkIDE-Project/ArkIDE-Desktop/releases/download/v1.10.0/Ark.IDE-1.10.0.AppImage",
+            x86: "https://github.com/The-ArkIDE-Project/ArkIDE-Desktop/releases/download/v1.10.0/Ark.IDE-1.10.0-x86.AppImage",
             arm64: "https://github.com/The-ArkIDE-Project/ArkIDE-Desktop/releases/download/v1.10.0/Ark.IDE-1.10.0-arm64.AppImage"
         }
     };
