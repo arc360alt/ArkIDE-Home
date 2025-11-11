@@ -472,7 +472,7 @@
     width: 100%;
     left: 0px;
     top: 0px;
-    background: rgba(88, 42, 255, 0.72); /* Made semi-transparent (was var(--penguinmod-color)) */
+    background: rgba(88, 42, 255, 0.80); /* Made semi-transparent (was var(--penguinmod-color)) */
     backdrop-filter: blur(10px); /* Add blur effect */
     -webkit-backdrop-filter: blur(10px); /* Safari support */
     height: 3rem;
@@ -672,7 +672,7 @@
 
 .profile-dropdown-menu {
     position: fixed;
-    background: rgba(98, 81, 255, 0.72); /* Made semi-transparent */
+    background: rgba(98, 81, 255, 0.80); /* Made semi-transparent */
     backdrop-filter: blur(10px); /* Add blur effect */
     -webkit-backdrop-filter: blur(10px); /* Safari support */
     border-radius: 4px;
