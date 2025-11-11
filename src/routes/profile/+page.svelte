@@ -1800,7 +1800,7 @@ Promise.all([
         width: 320px;
         height: 100%;
         display: none;
-        border-radius: 8px;
+        border-radius: 12px;
         border: 2px solid rgba(255, 255, 255, 0.3);
         z-index: 4999;
     }
@@ -1842,7 +1842,7 @@ Promise.all([
         padding: 0 4px;
         margin: 0;
         background: rgba(17, 17, 17, 0.4);
-        border-radius: 8px;
+        border-radius: 12px;
     }
     :global(body.dark-mode) .emoji-picker-search-container input {
         background: rgba(17, 17, 17, 0.4);
@@ -2112,9 +2112,10 @@ Promise.all([
         background: rgba(17, 17, 17, 0.4);
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
-        border-radius: 8px;
+        border-radius: 12px;
         padding: 16px;
         border: 1px solid rgba(255, 255, 255, 0.2);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
 
     :global(body:not(.dark-mode)) .section-user-header {
@@ -2146,7 +2147,7 @@ Promise.all([
     align-items: center;
     gap: 8px;
     padding: 8px;
-    border-radius: 8px;
+    border-radius: 12px;
     transition: background 0.2s;
 }
 .following-user:hover {
@@ -2166,7 +2167,7 @@ Promise.all([
     .section-user-stats {
         height: 295px;
         width: 32%;
-        border-radius: 8px;
+        border-radius: 12px;
         border-width: 1px;
         border-color: rgba(255, 255, 255, 0.3);
         border-style: solid;
@@ -2175,6 +2176,7 @@ Promise.all([
         background: rgba(17, 17, 17, 0.4);
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
 
     :global(body:not(.dark-mode)) .section-user-stats {
@@ -2354,8 +2356,8 @@ Promise.all([
         right: 100%;
         border-top-right-radius: initial;
         border-bottom-right-radius: initial;
-        border-top-left-radius: 4px;
-        border-bottom-left-radius: 4px;
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;
     }
     @media screen and (max-width: 1105px) {
         .profile-bio-sidenotes {
@@ -2571,6 +2573,7 @@ Promise.all([
     overflow: hidden;
     padding: 12px;
     transition: background 0.3s ease, border-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* Light mode background */

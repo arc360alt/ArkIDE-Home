@@ -68,7 +68,7 @@ a {
 :global(body.dark-mode) .section.content-category {
 	background: rgba(17, 17, 17, 0.4);
 	border-color: rgba(255, 255, 255, 0.15);
-	box-shadow: 0 2px 12px rgba(43, 43, 43, 0.5);
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .header {
