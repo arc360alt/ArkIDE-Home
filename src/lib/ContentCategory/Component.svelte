@@ -87,6 +87,7 @@ a {
 	height: 312px;
 	margin: 6px;
 	overflow: auto;
+    padding: 6px
 }
 </style>
 

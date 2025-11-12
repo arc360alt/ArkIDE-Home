@@ -675,11 +675,10 @@
 
                             <h2>Newest Update: {latestCommit} (ArkIDE Home)</h2>
                             <ul>
-                                <li>Completely overhaul the profiles page</li>
-                                <li>Finally change this ArkIDE News section</li>
-                                <li>Make the website as a whole feel more modern</li>
-                                <li>Change the blur opacity on a few more things</li>
-                                <li>Add a script to autofetch the latest commit hash for this newest update thing</li>
+                                <li>Overhauls the homepage</li>
+                                <li>Fixes the follower lists in the user profiles to look better</li>
+                                <li>More animations and blur becuase yes</li>
+                                <li>New loading screen Tips</li>
                                 <li>General Bug Fixing.</li>
                             </ul>
 

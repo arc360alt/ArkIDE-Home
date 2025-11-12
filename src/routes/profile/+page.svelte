@@ -2138,30 +2138,96 @@ Promise.all([
     width: 100%;
     align-items: stretch;
 }
+/* Enhanced styles - add these to your existing CSS */
 .following-user-link {
     text-decoration: none;
     color: inherit;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.following-user-link:hover {
+    transform: translateY(-3px);
+}
+
 .following-user {
     display: flex;
     align-items: center;
     gap: 8px;
     padding: 8px;
     border-radius: 12px;
-    transition: background 0.2s;
+    transition: background 0.2s, transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s ease;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
+
 .following-user:hover {
     background: rgba(0,0,0,0.05);
+    transform: scale(1.03);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
+
+:global(body.dark-mode) .following-user {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+:global(body.dark-mode) .following-user:hover {
+    background: rgba(255,255,255,0.08);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.following-user-pfp-wrapper {
+    position: relative;
+    width: 52px;
+    height: 52px;
+    flex-shrink: 0;
+}
+
 .following-user-pfp {
     width: 52px;
     height: 52px;
     border-radius: 50%;
     object-fit: cover;
+    position: relative;
+    z-index: 2;
+    transition: transform 0.3s ease;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
+
+.following-user-link:hover .following-user-pfp {
+    transform: scale(1.08);
+}
+
+.following-user-pfp-glow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    filter: blur(10px) brightness(1.5) saturate(1.4);
+    opacity: 0;
+    z-index: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.following-user-link:hover .following-user-pfp-glow {
+    opacity: 0.85;
+}
+
 .following-user-name {
     font-weight: bold;
     font-size: 1.4em;
+    transition: color 0.2s ease;
+}
+
+.following-user-link:hover .following-user-name {
+    color: #4d97ff;
+}
+
+:global(body.dark-mode) .following-user-link:hover .following-user-name {
+    color: #6eb0ff;
 }
     
     .section-user-stats {
