@@ -229,92 +229,124 @@
 </div>
 
 <style>
-    * {
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    }
+	* {
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
 
-    .main {
-        position: absolute;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-evenly;
-        width: 100%;
-        height: 100%;
-        left: 0px;
-        top: 0px;
-    }
+	.main {
+		position: absolute;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-evenly;
+		width: 100%;
+		height: 100%;
+		left: 0;
+		top: 0;
+		background: transparent;
+		backdrop-filter: blur(6px);
+	}
 
-    button {
-        cursor: pointer;
-        border: 0;
-        width: 64px;
-        height: 64px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        background: transparent;
-    }
-    button:active:enabled {
-        opacity: 0.5;
-    }
-    button:disabled {
-        cursor: not-allowed !important;
-    }
+	button {
+		cursor: pointer;
+		border: none;
+		width: 72px;
+		height: 72px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background: rgba(255, 255, 255, 0.05);
+		border-radius: 20px;
+		transition: 
+			transform 0.2s ease,
+			box-shadow 0.3s ease,
+			background 0.3s ease,
+			filter 0.2s ease;
+		box-shadow: 0 0 10px rgba(255, 255, 255, 0.08);
+	}
 
-    .button-text {
-        color: rgba(0, 0, 0, 0.9);
-    }
-    :global(body.dark-mode) .button-text {
-        color: rgba(255, 255, 255, 0.9);
-    }
-    .button-image {
-        width: 100%;
-        user-select: none;
-        filter: brightness(0);
-        opacity: 0.7;
-    }
-    :global(body.dark-mode) .button-image {
-        filter: saturate(0) brightness(255);
-    }
-    .button-image[data-activated="true"] {
-        filter: initial !important;
-        opacity: 1 !important;
-    }
+	button:hover:enabled {
+		transform: scale(1.1);
+		box-shadow: 0 0 25px rgba(255, 255, 255, 0.3);
+		background: rgba(255, 255, 255, 0.1);
+		filter: brightness(1.2);
+	}
 
-    img {
-        width: 100%;
-    }
-    p {
-        margin-block: 4px;
-    }
+	button:active:enabled {
+		transform: scale(0.95);
+		box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+		filter: brightness(0.9);
+	}
 
-    .parent {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        font-weight: bold;
-        font-size: 24px;
-    }
+	button:disabled {
+		cursor: not-allowed !important;
+		opacity: 0.5;
+		box-shadow: none;
+	}
 
-    /* .like-text {
-        color: rgb(255, 106, 200);
-    }
-    .view-text {
-        color: rgb(0, 169, 255);
-    }
-    .feature-text {
-        color: rgb(255, 229, 107);
-    } */
+	.button-text {
+		color: rgba(0, 0, 0, 0.9);
+		text-shadow: 0 0 6px rgba(255, 255, 255, 0.2);
+	}
+	:global(body.dark-mode) .button-text {
+		color: rgba(255, 255, 255, 0.9);
+		text-shadow: 0 0 6px rgba(255, 255, 255, 0.4);
+	}
 
-    /* .like {
-        background: rgba(255, 106, 200, 0.25);
-    }
-    .view {
-        background: rgba(0, 169, 255, 0.25);
-    }
-    .feature {
-        background: rgba(255, 229, 107, 0.25);
-    } */
+	.button-image {
+		width: 70%;
+		user-select: none;
+		filter: brightness(0) opacity(0.8);
+		transition: filter 0.25s ease, transform 0.25s ease, drop-shadow 0.25s ease;
+	}
+	:global(body.dark-mode) .button-image {
+		filter: saturate(0) brightness(2);
+	}
+
+	.button-image[data-activated="true"] {
+		filter: none !important;
+		transform: scale(1.15);
+	}
+
+	img {
+		width: 100%;
+	}
+
+	p {
+		margin-block: 6px;
+		text-align: center;
+		font-size: 1.1rem;
+	}
+
+	.parent {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		font-weight: bold;
+		font-size: 20px;
+		transition: transform 0.2s ease;
+	}
+
+	.parent:hover {
+		transform: translateY(-2px);
+	}
+
+	/* Glowing color cues for each button type */
+	.like:hover {
+		box-shadow: 0 0 25px rgba(255, 106, 200, 0.6);
+	}
+	.like[data-activated="true"] {
+		box-shadow: 0 0 30px rgba(255, 106, 200, 0.9);
+	}
+
+	.feature:hover {
+		box-shadow: 0 0 25px rgba(255, 229, 107, 0.6);
+	}
+	.feature[data-activated="true"] {
+		box-shadow: 0 0 30px rgba(255, 229, 107, 0.9);
+	}
+
+	.view:hover {
+		box-shadow: 0 0 25px rgba(47, 0, 255, 0.6);
+	}
 </style>

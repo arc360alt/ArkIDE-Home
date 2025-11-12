@@ -2223,11 +2223,11 @@ Promise.all([
 }
 
 .following-user-link:hover .following-user-name {
-    color: #4d97ff;
+    color: #5f4dff;
 }
 
 :global(body.dark-mode) .following-user-link:hover .following-user-name {
-    color: #6eb0ff;
+    color: #6e70ff;
 }
     
     .section-user-stats {
@@ -2463,26 +2463,57 @@ Promise.all([
     }
     .follower-button {
         min-width: 100px;
-        height: 35px;
+        height: 38px;
         font-size: medium;
         font-weight: bold;
-        background-color: rgb(89, 0, 255);
         color: white;
+        background: linear-gradient(135deg, rgba(89, 0, 255, 0.8), rgba(150, 60, 255, 0.9));
         border-radius: 10px;
-        border-color: rgba(0, 0, 0, 0.25);
-        border-width: 1px;
-        border-style: solid;
+        border: 1px solid rgba(0, 0, 0, 0.25);
         text-align: center;
         cursor: pointer;
+        transition:
+            background 0.35s ease,
+            box-shadow 0.4s ease,
+            transform 0.2s ease,
+            color 0.3s ease;
+        box-shadow: 0 0 12px rgba(89, 0, 255, 0.3);
+        backdrop-filter: blur(6px);
     }
-    .follower-button-donator {
-        background-color: #c65cff;
+
+    .follower-button:not(.follower-button-following) {
+        box-shadow: 0 0 16px rgba(120, 60, 255, 0.7);
     }
+
     .follower-button-following {
-        background-color: rgb(163, 163, 163);
+        background: rgba(163, 163, 163, 0.8);
+        color: #e8e8e8;
+        box-shadow: 0 0 8px rgba(255, 255, 255, 0.15);
     }
+
+    .follower-button-donator {
+        background: linear-gradient(135deg, #c65cff, #9b4dff);
+        box-shadow: 0 0 14px rgba(198, 92, 255, 0.7);
+    }
+
+    /* 🌙 Dark mode adjustments */
     :global(body.dark-mode) .follower-button {
         border-color: rgba(255, 255, 255, 0.25);
+    }
+    :global(body.dark-mode) .follower-button-following {
+        background: rgba(90, 90, 90, 0.9);
+    }
+    :global(body.dark-mode) .follower-button:not(.follower-button-following) {
+        box-shadow: 0 0 18px rgba(150, 90, 255, 0.8);
+    }
+
+    .follower-button:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 24px rgba(150, 90, 255, 0.9);
+    }
+    .follower-button:active {
+        transform: scale(0.95);
+        box-shadow: 0 0 10px rgba(150, 90, 255, 0.4);
     }
 
     .subuser-section {

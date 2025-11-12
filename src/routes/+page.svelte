@@ -679,6 +679,7 @@
                                 <li>Fixes the follower lists in the user profiles to look better</li>
                                 <li>More animations and blur becuase yes</li>
                                 <li>New loading screen Tips</li>
+                                <li>Fix the embed for the editor (the voting embed on the editor)</li>
                                 <li>General Bug Fixing.</li>
                             </ul>
 
