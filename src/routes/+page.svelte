@@ -53,6 +53,23 @@
     let ghcommitsLoaded = false;
     let projectsLoaded = false;
     let projectsFailed = false;
+    let latestCommit = 'Failed To Fetch'; // fallback commit
+
+    async function fetchLatestCommit() {
+        try {
+            const repo = 'The-ArkIDE-Project/ArkIDE-Home';
+            const response = await fetch(`https://api.github.com/repos/${repo}/commits/main`);
+            if (!response.ok) throw new Error('GitHub API error');
+
+            const data = await response.json();
+            latestCommit = data.sha.slice(0, 7); // short commit hash
+        } catch (err) {
+            console.warn('Failed to fetch latest commit, using fallback:', err);
+            // latestCommit already has fallback value
+        }
+    }
+
+    fetchLatestCommit();
 
     let catText = '⠀';
     let existingInterval;
@@ -652,26 +669,30 @@
                         <h2 style="margin-block:4px;">Welcome to ArkIDE</h2>
                         <div style="width:100%">
                             <p>
-                                Note: If you want to use Sharkpool Extensions but their blocked, use this website: <a href=" https://arkfs.arc360hub.com/folder/sharkpool-extensions/">ArkFS sharkpool-extensions Folder</a>
-                                <br />
-                                ArkIDE is a block-based coding website built off of PenguinMod and TurboWarp.
-                                <br />
-                                This is a passion project of mine to learn more web development and homelabbing (yes im hosting my own server).
-                                <br />
-                                Remember, ArkIDE is in beta, so expect bugs and missing features. And that ArkIDE is NOT affiliated with Scratch, Turbowarp, or Penguinmod. This is a seperate project.
-                                <br />
-                                <br />
-                                here are some photos of the mascot:
-                                <br />
-                                <img src="whome.png" alt="ArkIDE Mascot 1" style="width: 12rem;"/>
-                                <img src="keithdissapoint.png" alt="ArkIDE Mascot 1" style="width: 12rem;"/>
-                                <img src="msuic.png" alt="ArkIDE Mascot 1" style="width: 12rem;"/>
-                                <img src="ohgod.png" alt="ArkIDE Mascot 1" style="width: 12rem;"/>
-                                <img src="imatakeith.png" alt="ArkIDE Mascot 1" style="width: 12rem;"/>
-                                <img src="patternregognition.png" alt="ArkIDE Mascot 1" style="width: 12rem;"/>
-                                <br />
-                                all art is by Insomnia64!!
+                                Note: If you want to use Sharkpool Extensions but they're blocked, use this website:
+                                <a href="https://arkfs.arc360hub.com/folder/sharkpool-extensions/">ArkFS sharkpool-extensions Folder</a>
                             </p>
+
+                            <h2>Newest Update: {latestCommit} (ArkIDE Home)</h2>
+                            <ul>
+                                <li>Completely overhaul the profiles page</li>
+                                <li>Finally change this ArkIDE News section</li>
+                                <li>Make the website as a whole feel more modern</li>
+                                <li>Change the blur opacity on a few more things</li>
+                                <li>Add a script to autofetch the latest commit hash for this newest update thing</li>
+                                <li>General Bug Fixing.</li>
+                            </ul>
+
+                            <p>Here are some photos of the mascot:</p>
+                            <img src="whome.png" alt="ArkIDE Mascot 1" style="width: 12rem;"/>
+                            <img src="keithdissapoint.png" alt="ArkIDE Mascot 2" style="width: 12rem;"/>
+                            <img src="msuic.png" alt="ArkIDE Mascot 3" style="width: 12rem;"/>
+                            <img src="ohgod.png" alt="ArkIDE Mascot 4" style="width: 12rem;"/>
+                            <img src="imatakeith.png" alt="ArkIDE Mascot 5" style="width: 12rem;"/>
+                            <img src="patternregognition.png" alt="ArkIDE Mascot 6" style="width: 12rem;"/>
+
+                            <p>All art is by Insomnia64!!</p>
+                            <p>ArkIDE is NOT affiliated with Penguinmod, Scratch, or Turbowarp in any way; this is a separate project.</p>
                         </div>
                     </div>
                     <div class="category-footer">
