@@ -700,6 +700,10 @@ function formatTime(timestamp) {
     transition: all 0.2s ease;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
+:global(body.dark-mode) .post-btn {
+    background: rgba(255, 255, 255, 0.15);
+    color: rgba(255, 255, 255, 0.9);
+}
 .post-btn:hover:not(:disabled) {
     background: rgba(0, 0, 0, 0.25);
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
@@ -779,8 +783,15 @@ function formatTime(timestamp) {
     border-radius: 6px;
     border: none;
     background: rgba(255, 255, 255, 0.1);
+    color: rgba(0, 0, 0, 0.8);
     cursor: pointer;
     transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+:global(body.dark-mode) .icon-btn {
+    color: rgba(255, 255, 255, 0.9);
 }
 .icon-btn:hover {
     background: rgba(255, 255, 255, 0.2);

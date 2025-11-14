@@ -166,6 +166,7 @@
         switch (dropdownSelectMenu.value) {
             case "user":
             case "project":
+            case "comment":
                 return openReportsMenu(dropdownSelectMenu.value);
             case "removed":
                 projectListStyle = 'flex-direction: row;flex-wrap: wrap;';
@@ -198,18 +199,17 @@
     function openReportsMenu(type) {
         unapprovedProjects = [];
         contentWithReports = [];
-        ProjectClient.getTypeWithReports(type, 0).then((projectsWithReports) => {
+        
+        // Map "comment" to type 2 for the API
+        let apiType = type;
+        if (type === "comment") {
+            apiType = 2; // Comments use type 2
+        }
+        
+        ProjectClient.getTypeWithReports(apiType, 0).then((projectsWithReports) => {
             contentWithReports = projectsWithReports;
             console.log(contentWithReports)
         });
-        // get approved projects anyways cuz we need to update list
-        // todo: getProjects is paged breh what we do?
-        //       add a new endpoint containing all project names with tons of compression propably :idk_man:
-        //       remember: network usage is key here since that makes us loose money :()
-
-        // ProjectApi.getProjects().then((projects) => {
-        //     approvedProjectNames = projects.map((p) => p.name);
-        // });
     }
     // function deleteProject(id, name) {
     //     const code = prompt(
@@ -1968,6 +1968,7 @@ const loadUserPerms = () => ProjectClient.getAllPermitedUsers()
                     <option value="" disabled />
                     <option value="user">User Reports</option>
                     <option value="project">Project Reports</option>
+                    <option value="comment">Comment Reports</option>
                     <option value="" disabled />
                     <optgroup label="Moderation">
                         <option value="removed">Removed Projects</option>
@@ -1990,6 +1991,10 @@ const loadUserPerms = () => ProjectClient.getAllPermitedUsers()
                             <p class="selection-info">
                                 Click on a user to expand details
                             </p>
+                        {:else if dropdownSelectMenu.value === "comment"}
+                            <p class="selection-info">
+                                Click on a comment to expand details
+                            </p>
                         {:else}
                             <p class="selection-info">
                                 Click on a project to expand details
@@ -1999,6 +2004,10 @@ const loadUserPerms = () => ProjectClient.getAllPermitedUsers()
                         {#if dropdownSelectMenu.value === "user"}
                             <p class="selection-info">
                                 No user reports currently!
+                            </p>
+                        {:else if dropdownSelectMenu.value === "comment"}
+                            <p class="selection-info">
+                                No comment reports currently!
                             </p>
                         {:else if dropdownSelectMenu.value === 'removed'}
                             <p class="selection-info">
@@ -2082,11 +2091,75 @@ const loadUserPerms = () => ProjectClient.getAllPermitedUsers()
                                                     {report.report}
                                                 </p>
                                             </details>
-                                        {/each}
-                                    {/if}
-                                </div>
-                            {/if}
-                        {:else}
+{/each}
+                    {/if}
+                </div>
+            {/if}
+        {:else if dropdownSelectMenu.value === "comment"}
+            <button
+                class="reports-user-button"
+                on:click={() => {
+                    loadReportDetails(content.target);
+                    if (selectedReportDetailed === idx) {
+                        selectedReportDetailed = -1;
+                        return;
+                    }
+                    selectedReportDetailed = idx;
+                }}
+            >
+                <div class="reports-user-content">
+                    <p style="font-weight: bold;">
+                        Comment ID: {content.target}
+                    </p>
+                    <p style="font-size: 0.85em; opacity: 0.8;">
+                        {content.report.substring(0, 50)}{content.report.length > 50 ? '...' : ''}
+                    </p>
+                </div>
+            </button>
+            {#if selectedReportDetailed === idx}
+                <div class="reports-generic-details">
+                    {#if !reportDetails[content.target]}
+                        <LoadingSpinner />
+                    {:else}
+                        <h5>Reported by: <a href={`https://penguinmod.com/profile?user=${content.reporter}`}>{content.reporter}</a></h5>
+                        <p><strong>Comment ID:</strong> {content.target}</p>
+                        <p><strong>Reason:</strong></p>
+                        <p style="white-space:pre-wrap">
+                            {content.report}
+                        </p>
+                        <Button
+                            on:click={() =>
+                                closeUserReport(
+                                    content.id
+                                )}
+                            color="red"
+                        >
+                            Close Report
+                        </Button>
+                        <h3>All reports on this comment</h3>
+                        {#each reportDetails[content.target] as report}
+                            <details>
+                                <summary>
+                                    {report.reporter}
+                                </summary>
+                                <Button
+                                    on:click={() =>
+                                        closeUserReport(
+                                            report.id
+                                        )}
+                                    color="red"
+                                >
+                                    Close Report
+                                </Button>
+                                <p style="white-space:pre-wrap">
+                                    {report.report}
+                                </p>
+                            </details>
+                        {/each}
+                    {/if}
+                </div>
+            {/if}
+        {:else}
                             <button
                                 class="reports-user-button reports-project-button"
                                 on:click={() => {

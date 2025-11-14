@@ -708,7 +708,7 @@ async getAllUsers() {
         });
     }
     getTypeWithReports(type, page) {
-        if (type !== "project" && type !== "user") throw new Error('Invalid reporting type');
+    if (type !== "project" && type !== "user" && type !== 2) throw new Error('Invalid reporting type');
         return new Promise((resolve, reject) => {
             const url = `${OriginApiUrl}/api/v1/reports/getReports?username=${this.username}&token=${this.token}&type=${type}&page=${page}`;
             fetch(url)
