@@ -498,7 +498,7 @@ function formatTime(timestamp) {
                 </div>
             {/each}
             
-            {#if comments.length === 0}
+            {#if comments.length === 0 && commentCount === 0}
                 <div class="no-comments">
                     <p>No comments yet. Be the first to comment!</p>
                 </div>
