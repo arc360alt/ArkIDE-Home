@@ -14,12 +14,47 @@
     import LINK from "../../resources/urls.js";
     
     let currentLang = "en";
+    let showTomato = false;
+    let tomatoGif = null;
+    let audioElement = null;
+
     onMount(() => {
         Language.forceUpdate();
     });
     Language.onChange((lang) => {
         currentLang = lang;
     });
+
+    function playTomato() {
+        showTomato = true;
+        // Reset the gif by changing src
+        if (tomatoGif) {
+            const src = tomatoGif.src;
+            tomatoGif.src = '';
+            tomatoGif.src = src;
+        }
+        
+        // Play audio after delay (adjust the 1000ms to your desired timing)
+        setTimeout(() => {
+            if (audioElement) {
+                audioElement.currentTime = 0;
+                audioElement.play();
+            }
+        }, 0); // Change this number to delay in milliseconds (1000 = 1 second)
+    }
+
+    function onTomatoLoad() {
+        if (!tomatoGif) return;
+        // Create a temporary image to get gif duration
+        const img = new Image();
+        img.onload = function() {
+            // Estimate gif duration (usually gifs are 2-5 seconds, adjust as needed)
+            setTimeout(() => {
+                showTomato = false;
+            }, 7500); // Hide after 3 seconds, adjust based on your gif length
+        };
+        img.src = tomatoGif.src;
+    }
     </script>
     
     <svelte:head>
@@ -74,6 +109,32 @@
             </p><p>
                 These people can contact Administrators aswell, and may have extra permissions such as banning users.
             </p>
+
+            <h2>Punishments</h2>
+
+            <p>
+                Violating these terms may result in punishments such as:
+            </p>
+            <li>Violation 1: Temporary Ban (1-7 Days depending on violation)</li>
+            <li>Violation 2: Temporary Ban ban of 1-2 Months and your PFP will be changed to a sonic fetish PFP (dont ask)</li>
+            <button on:click={playTomato} class="tomato-button">inconspicuous red button</button>
+
+            <audio bind:this={audioElement} src="tomato.mp3" preload="auto"></audio>
+
+            {#if showTomato}
+                <div class="tomato-fullscreen">
+                    <img 
+                        bind:this={tomatoGif}
+                        src="tomato.gif" 
+                        alt="Tomato" 
+                        on:load={onTomatoLoad}
+                        class="tomato-gif"
+                    />
+                </div>
+            {/if}
+            <li>Violation 3: Perminant Ban</li>
+
+
 
             <h2>General</h2>
             <p>
@@ -227,5 +288,44 @@
         :global(body.dark-mode) a {
             color: dodgerblue;
         }
-    </style>
+
+:global(body.dark-mode) a {
+    color: dodgerblue;
+}
+
+.tomato-button {
+    margin: 16px 0;
+    padding: 10px 20px;
+    background: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.tomato-button:hover {
+    background: #ff4500;
+}
+
+.tomato-fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.tomato-gif {
+    max-width: 150vw;
+    max-height: 150vh;
+    object-fit: contain;
+}
+</style>
     

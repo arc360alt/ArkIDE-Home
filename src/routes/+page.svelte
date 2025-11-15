@@ -679,6 +679,7 @@
                                 <li>Change some stuff in the admin panel to handel comment reporting</li>
                                 <li>Fix the Vote Frame in the editor to have more height</li>
                                 <li>A bunch of backend changes to add comments</li>
+                                <li>Update the TOS page and add a lil suprise in there</li>
                                 <li>General Bug Fixing.</li>
                             </ul>
 
